@@ -10,13 +10,85 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+p.big{
+  line-height: 1.5;
+  margin-top: 5px;
+}
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background-color: lightgray;
 }
 
+#skills {
+  margin-top: 100px;
+}
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 11pt;
+}
+.home {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#about {
+  margin-top: 0px;
+}
+.header {
+  margin-bottom: 5px;
+  margin-top: 35px;
+}
+button {
+  font: bold 13px Tahoma, Arial, sans-serif; /* XP's default font was Tahoma */
+  text-decoration: none;
+  background-color: #ebebeb;
+  color: #333333;
+  height: 35px;
+  width: 125px;
+  border-top: 2px solid #fcfcfc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #fcfcfc;
+  cursor: pointer; /* Indicates it's clickable */
+  margin-right: 50px;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
+button:active {
+  background-color: #cacaca; /* Even darker when pressed */
+  border-top-color: #ebebeb;
+  border-left-color: #ebebeb;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+ul {
+  padding-left: 15px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+
+
+
+
+
+.hrxp {
+  border: none;
+  border-top: 1px solid #ffffff; /* White top border */
+  border-bottom: 1px solid #bfbfbf; /* Gray bottom border */
+  clear: both;
+  height: 1px;
+  margin-bottom: 5px;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
